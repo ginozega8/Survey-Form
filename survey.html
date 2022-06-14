@@ -1,0 +1,85 @@
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width">
+    <title>Help us improve!</title>
+    <link rel="stylesheet" href="survey_style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">X-Company - Survey</h1>
+        <p id="description">Share your thoughts completing this quick survey form!</p>
+    </header>
+
+    <form id="survey-form">
+            
+        <label for="name" id="name-label">Name and Lastname</label>
+        <input type="text" id="name" class="padron" required placeholder="Armando Casas">
+        
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" class="padron" required placeholder="email@domain">
+        
+        <label for="number" id="number-label">Cellphone</label>
+        <input type="number" id="number" class="padron" required placeholder="(XX)XXXX-XXXXXX" min="2" max="9">
+
+        <label>What is your gender?</label>
+
+        <select id="dropdown">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+
+        <div class="radio">
+            <label>Are you happy with the performance of X-Company?</label>
+
+            <label for="radio-email"><input type="radio" value="Email" id="radio-email" name="contact">Yes</label>
+        
+
+            <label for="radio-whatsapp"><input type="radio" value="Whatsapp" id="radio-whatsapp" name="contact" checked>No</label>
+        
+
+            <label for="radio-Cellphone"><input type="radio" value="Cellphone" id="radio-Cellphone" name="contact">I'm not sure</label>
+        
+        </div>
+
+ 
+    <div class="check">
+    <label>if you are not, what can we make better for you? </label>
+
+    <label class="checkbox">
+        <input name="prefer"value="city-meetups"type="checkbox"class="input-checkbox" checked>
+        New instalations
+    </input>
+    </label>
+
+    <label class="checkbox">
+        <input name="prefer"value="city-meetups"type="checkbox"class="input-checkbox">
+        New tech
+    </input>
+    </label>
+
+    <label class="checkbox">
+        <input name="prefer"value="city-meetups"type="checkbox"class="input-checkbox">
+        More staff
+    </input>
+    </label>
+
+    <label class="checkbox">
+        <input name="prefer"value="city-meetups"type="checkbox"class="input-checkbox" >
+        More products
+    </input>
+    </label>
+
+    </div>
+
+    <label for="message">Message</label>
+    <textarea cols="69" rows="10" id="message" class="padron" value="Additional Comments"></textarea>
+    <br>
+
+    <button type="submit" class="enviar" id="submit">Enviar</button>
+    </form>
+
+</body>

@@ -1,0 +1,124 @@
+/*Global*/
+
+body {
+    background-color: #03000d;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    color: aliceblue;
+
+}
+
+
+header {
+    margin: 10px 18vw 0px 18vw;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+    background-color: rgba(2, 17, 41, 0.4);
+}
+
+form {
+    margin: 10px 18vw 0px 18vw;
+    text-align: center;
+    background-color: rgba(2, 17, 41, 0.4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+/*Global end*/
+
+
+
+/*Gender Selector*/
+
+#dropdown {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px 15px;
+    background-color: black;
+    color: aliceblue;
+}
+
+/*Gender Selector end*/
+
+
+/*Radio*/
+
+.radio input {
+    cursor: pointer;
+}
+
+/*Radio end*/
+
+
+/*Checkboxes*/
+
+.checkbox{
+    margin: 20px 0;
+}
+
+/*Checkboxes end*/
+
+
+/*Message*/
+
+.padron{
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 8px 25px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+/*Message end*/
+
+
+/*Send button*/
+
+.enviar{
+
+    background: rgb(22, 22, 22);
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    transition: 0.2s all;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #08067a;
+    box-shadow: 0 0 10px #08067a, 0 0 40px #08067a, 0 0 80px;
+}
+
+/*Send button end*/
+
+
+/*For Mobile*/
+
+@media screen and (max-width:900px) {
+
+    header {
+        margin: 10px 8vw 0px 8vw;
+    }
+
+    form {
+        margin: 10px 8vw 0px 8vw;
+    }
+
+}
+
+/*For Mobile end*/
